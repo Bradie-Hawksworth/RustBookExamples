@@ -171,5 +171,22 @@ fn main() {
     
     println!("The first element of another_array is: {array_fist_pos}. The second element is {array_second_pos}");
     
+    //Chapter 3.5 on Control Flow
+    /////////////////////////////
+   let number = 3;
+   
+   if (number < 5){ //Having the brackets around the if statement here prompts a warning on compilation. The warning states the parentheses are not used.
+        println!("condition was true");
+   }else{ 
+        println!("condition was false");
+   }
+
+   //If conditions must be of type bool. The following will provide an error at compilation stating
+   //a type mismatch.
+   //if number{
+   //     println!("The number was three");
+   //}
+  
+   
 
 }
